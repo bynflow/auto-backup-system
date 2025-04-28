@@ -1,9 +1,9 @@
 [Unit]
-Description=Esegui backup automatico ogni 3 ore
+Description=Run automatic backup every [YOUR INTEGER VALUE] hours # For example 3
 
 [Timer]
-OnBootSec=5min
-OnUnitActiveSec=3h
+OnBootSec=[YOUR INTEGER VALUE]min # For example 5
+OnUnitActiveSec=[YOUR INTEGER VALUE]h # For example 3
 Persistent=true
 
 [Install]

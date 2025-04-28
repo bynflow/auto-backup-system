@@ -1,5 +1,5 @@
 [Unit]
-Description=Backup automatico via rclone
+Description=Automatic backup via rclone
 
 [Service]
 ExecStart=%h/.local/scripts/backup-auto.sh

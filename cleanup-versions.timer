@@ -1,9 +1,9 @@
 [Unit]
-Description=Esegui cleanup dei backup vecchi ogni 15 giorni
+Description=Run cleanup of old backups every [YOUR INTEGER VALUE] days # For example 15
 
 [Timer]
-OnBootSec=10min
-OnUnitActiveSec=15d
+OnBootSec=[YOUR INTEGER VALUE]min # For example 10
+OnUnitActiveSec=[YOUR INTEGER VALUE]d # For example 15
 Persistent=true
 
 [Install]
