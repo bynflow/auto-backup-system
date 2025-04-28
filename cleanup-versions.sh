@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Number of days of retention
-RETENTION_DAYS=[YOUR INTEGER VALUE]
+RETENTION_DAYS=[YOUR INTEGER VALUE] # For example 365
 REMOTE="[PROVIDER]:[REMOTE BACKUP DIR]"
 
 # Log file
