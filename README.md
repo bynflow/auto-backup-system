@@ -88,7 +88,7 @@ Data is copied to remote storage, organized by date:
 
 ---
 
-**Author**: bynflow  
+**Author**: Carlo Capobianchi (bynflow)  
 **Year**: 2025
 
 
