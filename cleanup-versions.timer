@@ -1,0 +1,12 @@
+[Unit]
+Description=Esegui cleanup dei backup vecchi ogni 15 giorni
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=15d
+Persistent=true
+
+[Install]
+WantedBy=default.target
+
+

@@ -1,0 +1,12 @@
+[Unit]
+Description=Esegui backup automatico ogni 3 ore
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=3h
+Persistent=true
+
+[Install]
+WantedBy=default.target
+
+

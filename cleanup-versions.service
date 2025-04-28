@@ -1,0 +1,7 @@
+[Unit]
+Description=Pulizia versioni vecchie su backup remoto
+
+[Service]
+ExecStart=%h/.local/scripts/cleanup-versions.sh
+
+
